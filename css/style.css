@@ -138,3 +138,41 @@ Spotfire Action Buttons
 .sfc-action-button:hover {
   background-color: #005B82 !important;
 }
+
+/*
+
+Accordion
+
+*/
+#accordion label {
+	display: block;    
+	padding: 8px 22px;
+	margin: 0 0 1px 0;
+	cursor: pointer;
+	background: #00A1DE;
+	border-radius: 3px;
+	color: #FFF;
+	font-weight: bold;
+	transition: ease .5s;
+}
+#accordion label:hover {
+	background: #005B82;
+}
+#accordion .content {
+	background: #FFF;
+	padding: 10px 25px;
+	margin: 0 0 1px 0;
+	border-radius: 3px;
+}
+
+#accordion input + .content {
+	display: none;
+}
+
+#accordion input:checked + .content {
+	display: block;
+}
+
+#accordion input {
+	display: none;
+}
