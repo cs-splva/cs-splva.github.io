@@ -176,3 +176,8 @@ Accordion
 #accordion input {
 	display: none;
 }
+
+/* Use to hide elements */
+.hidden {
+	display: none;
+}
