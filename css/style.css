@@ -177,6 +177,10 @@ Accordion
 	display: none;
 }
 
+#accordion .sf-element-input {
+	display: inline;
+}
+
 /* Use to hide elements */
 .hidden {
 	display: none;
