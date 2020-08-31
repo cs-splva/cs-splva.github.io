@@ -90,8 +90,6 @@ Menu Bar
   position: relative;
   color: #00a1de;
 }
-.dropdown:hover {
-}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -102,9 +100,6 @@ Menu Bar
   border-radius: 5px;
   top: -0.9vh;
   left: -0.9vh;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 ul.dropdown-content {
   list-style-type: none;
