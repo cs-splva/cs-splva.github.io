@@ -18,7 +18,6 @@ Menu Bar
   top: 50px;
   width: 97.5vw;
   height: 28px;
-  z-index:1;
 }
 @media screen and (max-height: 768px) {
   .page-header {
