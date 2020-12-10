@@ -66,8 +66,8 @@ function saveClearInterval(){
 // Make #sfBusy-Overlay visible if Spotfire is busy
 function sfBusyOverlay(){
 
-	var busyIcon = $('.sfx_online_333 svg');
-	var sfIsBusy = busyIcon[0].getAttribute("style") == 'display: none;';
+	var busyIcon = $('.sfx_online_333');
+	var sfIsBusy = busyIcon[0].getAttribute("title").includes("Background tasks");
 
 	if(sfIsBusy == true) {
 		$('#sfBusy-Overlay').css('display','block');
