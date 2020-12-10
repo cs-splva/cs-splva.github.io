@@ -67,7 +67,7 @@ function saveClearInterval(){
 function sfBusyOverlay(){
 
 	var busyIcon = $('.sfx_online_333 svg');
-	var sfIsBusy = busyIcon[1].getAttribute("style") == '';
+	var sfIsBusy = busyIcon[0].getAttribute("style") == 'display: none;';
 
 	if(sfIsBusy == true) {
 		$('#sfBusy-Overlay').css('display','block');
